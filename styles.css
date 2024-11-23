@@ -319,3 +319,53 @@ text-underline-offset: 5px;
  .visually-hidden {
   display: none;
  }
+.banner-body {
+  width: 600px;
+}
+.banner-photo {
+  position: absolute;
+  right: 50px;
+  top: 40px;
+}
+.banner {
+  padding: 40px 50px;
+  height: 860px;
+position: relative;
+}
+.banner-cite {
+  font-size: 11px;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+text-transform: uppercase;
+} 
+.banner-title {
+font-weight: 500;
+font-size: 77px;
+line-height: 110%;
+text-transform: uppercase;
+border-bottom: var(--border);
+}
+.banner-icon {
+  display: flex;
+  margin-left: 210px;
+  margin-top: -15px;
+}
+.banner-text {
+  display: block;
+  font-weight: 400;
+font-size: 22px;
+line-height: 136%;
+letter-spacing: -0.02em;
+padding: 310px 0;
+width: 478px;
+}
+.banner::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background: var(--color-black);
+  top: 100%;
+  width: 94%;
+  left: 50%;
+  transform: translateX(-50%);
+}

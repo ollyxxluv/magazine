@@ -373,6 +373,13 @@ width: 478px;
   padding: 70px 50px;
   height: 2143px;
 }
+.circle {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  margin-right: 5px;
+}
 .posts-menu {
   text-decoration: none;
 }
@@ -382,6 +389,7 @@ font-size: 19px;
 line-height: 100%;
 letter-spacing: -0.02em;
 text-transform: uppercase;
+margin-bottom: 30px;
 }
 .view-all {
   float: right;
@@ -400,8 +408,8 @@ text-transform: uppercase;
 }
 .posts-card-filer {
   position: absolute;
-  top: -25px;
-  left: 1166px;
+  top: -17px;
+  left: 1190px;
   white-space: nowrap;
   font-weight: 500;
 font-size: 11px;
@@ -414,8 +422,8 @@ text-transform: uppercase;
 }
 .posts-card-all {
   position: absolute;
-  top: -25px;
-  left: 180px;
+  top: -17px;
+  left: 145px;
   border: var(--border);
   border-radius: var(--border-radius);
   padding: 4px 7px 5px 7px;
@@ -428,8 +436,8 @@ text-decoration: none;
 }
 .posts-card-design {
   position: absolute;
-  top: -25px;
-  left: 230px;
+  top: -17px;
+  left: 195px;
   border: var(--border);
   border-radius: var(--border-radius);
   padding: 4px 7px 5px 7px;
@@ -442,8 +450,8 @@ text-decoration: none;
 }
 .posts-card-altyn {
   position: absolute;
-  top: -25px;
-  left: 300px;
+  top: -17px;
+  left: 270px;
   border: var(--border);
   border-radius: var(--border-radius);
   padding: 4px 7px 5px 7px;
@@ -469,9 +477,6 @@ text-decoration: none;
   color: var(--color-light);
   transition: all 0.4s ease;
 }
-.posts-card-body {
-  position: relative;
-}
 .posts-card-container {
   width: var(--container-width);
   padding: var(--container-padding-x);
@@ -486,4 +491,13 @@ line-height: 100%;
 letter-spacing: 0.1em;
 text-transform: uppercase;
 text-decoration: none;
+height: 20px;
 }
+.posts-card-description {
+font-weight: 500;
+font-size: 11px;
+line-height: 100%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+

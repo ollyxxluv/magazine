@@ -369,3 +369,14 @@ width: 478px;
   left: 50%;
   transform: translateX(-50%);
 }
+.posts {
+  padding: 70px 50px;
+  height: 2143px;
+}
+.posts-menu {
+  text-decoration: none;
+}
+.view-all {
+  float: right;
+}
+

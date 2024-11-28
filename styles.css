@@ -376,7 +376,114 @@ width: 478px;
 .posts-menu {
   text-decoration: none;
 }
+.latest-posts-menu {
+  font-weight: 500;
+font-size: 19px;
+line-height: 100%;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
 .view-all {
   float: right;
+  font-weight: 500;
+font-size: 19px;
+line-height: 100%;
+letter-spacing: -0.02em;
+text-transform: uppercase;
 }
-
+.filter-card {
+  font-weight: 500;
+font-size: 11px;
+line-height: 100%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+.posts-card-filer {
+  position: absolute;
+  top: -25px;
+  left: 1166px;
+  white-space: nowrap;
+  font-weight: 500;
+font-size: 11px;
+line-height: 100%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+.posts-card-category {
+  position: relative;
+}
+.posts-card-all {
+  position: absolute;
+  top: -25px;
+  left: 180px;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 4px 7px 5px 7px;
+font-weight: 500;
+font-size: 11px;
+line-height: 100%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: none;
+}
+.posts-card-design {
+  position: absolute;
+  top: -25px;
+  left: 230px;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 4px 7px 5px 7px;
+font-weight: 500;
+font-size: 11px;
+line-height: 100%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: none;
+}
+.posts-card-altyn {
+  position: absolute;
+  top: -25px;
+  left: 300px;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 4px 7px 5px 7px;
+font-weight: 500;
+font-size: 11px;
+line-height: 100%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: none;
+}
+.posts-card-all:hover {
+  background-color: var(--color-black);
+  color: var(--color-light);
+  transition: all 0.4s ease;
+}
+.posts-card-altyn:hover {
+  background-color: var(--color-black);
+  color: var(--color-light);
+  transition: all 0.4s ease;
+}
+.posts-card-design:hover {
+  background-color: var(--color-black);
+  color: var(--color-light);
+  transition: all 0.4s ease;
+}
+.posts-card-body {
+  position: relative;
+}
+.posts-card-container {
+  width: var(--container-width);
+  padding: var(--container-padding-x);
+}
+.posts-card-button {
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 4px 7px 5px 7px;
+font-weight: 500;
+font-size: 11px;
+line-height: 100%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: none;
+}

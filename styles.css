@@ -477,10 +477,6 @@ text-decoration: none;
   color: var(--color-light);
   transition: all 0.4s ease;
 }
-.posts-card-container {
-  width: var(--container-width);
-  padding: var(--container-padding-x);
-}
 .posts-card-button {
   border: var(--border);
   border-radius: var(--border-radius);
@@ -500,4 +496,14 @@ line-height: 100%;
 letter-spacing: 0.1em;
 text-transform: uppercase;
 }
-
+.posts-list {
+  column-count: 3;
+  column-gap: 1rem;
+}
+.posts-image {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}

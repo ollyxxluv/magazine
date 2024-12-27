@@ -371,7 +371,7 @@ width: 478px;
 }
 .posts {
   padding: 70px 50px;
-  height: 2143px;
+  height: 1830px;
 }
 .circle {
   width: 17px;
@@ -507,10 +507,98 @@ text-transform: uppercase;
   width: 100%;
   box-sizing: border-box;
 }
+.posts-card-title{
+  font-weight: 500;
+text-transform: uppercase;
+}
 .hr-line {
 	margin: 70px 0;
 	padding: 0;
 	height: 0;
 	border: none;
 	border-top: var(--border)
+}
+.popular-posts {
+  padding: 70px 50px;
+  height: 601px;
+}
+.left {
+  font-weight: 500;
+font-size: 19px;
+line-height: 100%;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+float: left;
+position: relative;
+top: -30px;
+left: 30px;
+}
+.right {
+  font-weight: 500;
+font-size: 19px;
+line-height: 100%;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+float: right;
+position: relative;
+top: -30px;
+right: 250px;
+}
+.hexagon::before {
+  content: "";
+  color: var(--color-black);
+  font-size:27px;
+}
+.hexagon::before {
+  content: "\2B22";
+  display:inline-block;
+  color: var(--color-black);
+  font-size:27px;
+  -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+}
+.star_six_points {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 16px solid var(--color-black);
+  position: relative;
+  display: inline-block;
+  top: -36px;
+  right: -870px;
+
+}
+.star_six_points:after {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 16px solid var(--color-black);
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: -8px;
+}
+.popular-posts-list {
+display: flex;
+justify-content: start;
+gap: 15px;
+}
+.popular-card-description {
+  font-weight: 500;
+font-size: 11px;
+line-height: 100%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+margin-top: 10px;
+}
+.popular-card-title {
+  font-weight: 500;
+font-size: 25px;
+line-height: 122%;
+text-transform: uppercase;
+margin-top: 10px;
 }
